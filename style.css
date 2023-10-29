@@ -229,8 +229,8 @@ section {
 .graphic-img img {
   position: relative;
   border-radius: 50%;
-  width: 430px;
-  height: auto;
+  width: 431px;
+  height: 434px;
   z-index: 10;
 }
 .rotate-text {
@@ -295,8 +295,8 @@ section {
   position: relative;
 }
 .details img {
-  height: auto;
-  width: 30%;
+  height: 30rem;
+  width: 33%;
   border-radius: 10px;
   position: relative;
   opacity: 0;
@@ -958,3 +958,5 @@ footer p {
     opacity: 1;
   }
 }
+
+
