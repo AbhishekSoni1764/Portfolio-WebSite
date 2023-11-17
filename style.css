@@ -46,6 +46,7 @@ header {
 span {
   background: var(--bg-color);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 ul.navitems {
@@ -65,6 +66,7 @@ ul.navitems {
 .navitems li a.active {
   background: var(--bg-color);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 .btn {
@@ -138,6 +140,7 @@ section {
   background: var(--bg-color);
   background-repeat: no-repeat;
   -webkit-background-clip: text;
+  background-clip: text;
   background-position: 0 0;
   transition: 0.6s;
   letter-spacing: 2px;
@@ -447,7 +450,7 @@ section {
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   height: auto;
   min-width: 93%;
 }
@@ -457,7 +460,7 @@ section {
   justify-content: space-between;
   align-items: center;
   height: 35rem;
-  width: 33%;
+  width: 32%;
   padding: .4rem;
   margin: 1rem;
   box-shadow: 0px 0px 9px 3px #e8ac0e52;
@@ -486,6 +489,7 @@ section {
   background: var(--bg-color);
   background-repeat: no-repeat;
   -webkit-background-clip: text;
+  background-clip: text;
   background-position: 0 0;
   opacity: 0;
   animation: moveDown 2s ease forwards;
@@ -514,6 +518,7 @@ section {
   background: var(--bg-color);
   background-repeat: no-repeat;
   -webkit-background-clip: text;
+  background-clip: text;
   background-position: 0 0;
 }
 #education{
@@ -633,6 +638,7 @@ section {
   background: var(--bg-color);
   background-repeat: no-repeat;
   -webkit-background-clip: text;
+  background-clip: text;
   background-position: 0 0;
   margin-bottom: 20px;
 }
@@ -795,6 +801,7 @@ footer p {
   background: var(--bg-color);
   background-repeat: no-repeat;
   -webkit-background-clip: text;
+  background-clip: text;
   background-position: 0 0;
   font-size: 20px;
 }
